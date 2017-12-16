@@ -35,4 +35,5 @@ class Student
 
     DB[:conn].execute(sql, Student.name, Student.grade)
 
+  end
 end
