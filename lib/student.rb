@@ -14,6 +14,6 @@ class Student
         album TEXT
       )
       SQL
-    DB[:CONN].execute(sql)
+    DB[:conn].execute(sql)
   end
 end
